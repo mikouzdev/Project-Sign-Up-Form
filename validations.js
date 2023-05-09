@@ -14,6 +14,7 @@ form.addEventListener("submit", (e) => {
   }
 
   // If the passwords match, submit the form
+  alert("You are now signed in!");
   form.submit();
 });
 
