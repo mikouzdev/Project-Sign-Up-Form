@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <section class="main-container">
+        <div class="left-container" title="Photo by Halie West on Unsplash">
+          <div class="left-img">
+            <div class="logo">
+              <img src="odin-lined.png" />
+              <h1>ODIN</h1>
+            </div>
+          </div>
+        </div>
+        <div class="right-container">
+          <div class="top-head">
+            <h1>
+              This is not a real online service! You know you need something
+              like this in your life to help you realize your deepest dreams.
+              <br />
+              Sing up <i>now</i> to get started. <br />
+              <br />
+              You <i>know</i> you want to.
+            </h1>
+          </div>
+          <form class="form" id="signUpForm">
+            <div class="form-items">
+              <h1>Lets do this!</h1>
+              <div class="row">
+                <div class="row-item">
+                  <label>FIRST NAME</label>
+                  <input type="text" id="firstname" required />
+                </div>
+
+                <div class="row-item">
+                  <label>LAST NAME</label>
+                  <input type="text" id="lastname" required />
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="row-item">
+                  <label>EMAIL</label>
+                  <input type="email" id="email" required />
+                </div>
+
+                <div class="row-item">
+                  <label>PHONE NUMBER</label>
+                  <input type="number" id="phonenumber" required />
+                </div>
+              </div>
+              <div class="row">
+                <div class="row-item">
+                  <label>PASSWORD</label>
+                  <input type="password" id="pass1" required class="error" />
+                </div>
+
+                <div class="row-item">
+                  <label>CONFIRM PASSWORD</label>
+                  <input type="password" id="pass2" required class="error" />
+                </div>
+              </div>
+            </div>
+            <button class="button">Create Account</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="validations.js"></script>
+  </body>
+</html>
